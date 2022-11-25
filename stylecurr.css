@@ -1,0 +1,142 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    position: relative;
+    background: #000;
+    text-align: left;
+    margin: -.5rem;
+    height: 4rem;
+}
+.elementos__encabezado{
+    list-style-type: none;
+    color: #fff;
+}
+.elementos__encabezado li{
+    font-size: large;
+    font-weight:700;
+    display: inline;
+    border-radius: .5rem;
+    margin-left: 5%;
+    margin-top: 2rem;    
+    transition: background-color 0.5s;
+    padding: 1.8rem;
+    cursor: pointer;
+    color: #fff;
+}
+.elementos__encabezado li:hover{
+    background: #fff;
+    color: #000;
+    transition: background-color 0.5s;
+    transition-delay: initial;
+}
+a{
+    text-decoration: none; 
+}
+h3{
+    font-size:1rem;
+    color: #fff;
+    margin: 3rem;
+}
+h2{
+    font-size:1rem;
+    color: #000;
+    background: rgb(212, 212, 209); ;
+    margin: 3rem;
+    border-radius: 10px;
+}
+h1{
+    font-size: 4rem;
+    color: rgb(2, 1, 49);
+    position: relative;
+    float: right;
+    padding-right: 20%;
+    text-align: left;
+}
+h4{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(2, 1, 49);
+}
+
+.texto-franja{
+    font-size:1rem;
+    color: #fff;
+    margin: 2rem;
+}
+.texto{
+    color: rgb(2, 1, 49);
+    text-align: right;
+    font-size:x-large;
+    margin-right: 10%;
+}
+.lenguajes{
+    background: linear-gradient(20deg,rgb(2, 1, 49) 300px, #fff 10px);
+    color:#fff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(3, 3, 3, 0.397);
+    padding-bottom: 3%;
+    padding-top: 1%;
+    list-style-type:circle;
+}
+.lenguajes:hover{
+    background:#fff;
+    transition: background-color 3s;
+    color: rgb(2, 1, 49);
+}
+.logo{
+    position: relative;
+    float: right;
+    width: 20%;
+    margin-top: -19%;
+    margin-right: 3%;
+}
+.principal{
+    background: rgb(212, 212, 209);
+    margin-top: 1rem;
+    height:auto;
+}
+.titulo{
+    position: relative;
+    float: right;
+    text-align: center;
+    width: 70%;
+}
+.contenido{
+    position: relative;
+    float: right;
+    width: 70%;
+    height: 20%;
+    margin-right: 2%;
+    border-top: 4px solid rgb(2, 1, 49);;
+}
+.franja{
+    width: 25%;
+    height: 75rem;
+    background: rgb(2, 1, 49);
+    box-shadow: 10px 5px 5px rgba(3, 3, 3, 0.397);
+    text-align: center;
+    border-radius: 20px;
+}
+hr{
+    width: 80%;
+}
+.foto{
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    background: #fff;
+    position: relative;
+    margin: 13%;
+    align-items: center;
+    border: 2px solid #fff;
+}
+.foto img{
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
